@@ -26,12 +26,12 @@ namespace Ranita_rush
             if (e.KeyChar==119)
             {
                 pBoxRana.Location = new Point(xRana, yRana - 60);
-                pBoxRana.Image = Image.FromFile(@"C:\Users\johan\source\repos\Ranita rush\Ranita rush\bin\Debug\Sprays ranita rush\Frog_back.png");
+                pBoxRana.Image = Image.FromFile(@"C:\Users\johan\source\repos\Ranita-rush\Ranita rush\Resources\Frog_back.png");
             }
             else if (e.KeyChar == 115)
             {
                 pBoxRana.Location = new Point(xRana, yRana + 60);
-                pBoxRana.Image = Image.FromFile(@"C:\Users\johan\source\repos\Ranita rush\Ranita rush\bin\Debug\Sprays ranita rush\Frog.png");
+                pBoxRana.Image = Image.FromFile(@"C:\Users\johan\source\repos\Ranita-rush\Ranita rush\Resources\froggy_character.png");
             }
             else if (e.KeyChar == 97)
             {
@@ -108,7 +108,7 @@ namespace Ranita_rush
                 else if (dead == true)
                 {
                     tmrCar1.Enabled = false;                    
-                    pBoxRana.Image = Image.FromFile(@"C:\Users\johan\source\repos\Ranita rush\Ranita rush\Resources\Frogdead.png");
+                    pBoxRana.Image = Image.FromFile(@"C:\Users\johan\source\repos\Ranita-rush\Ranita rush\Resources\Frogdead.png");
                     
                 }
             }
